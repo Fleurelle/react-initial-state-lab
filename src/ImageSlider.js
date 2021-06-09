@@ -11,16 +11,6 @@ class ImageSlider extends Component {
         }
     }
 
-    //2. Bomb countdown!!
-    decrement = () => {
-        console.log(`before setState: ${this.state.currentSlideIndex}`)
-
-        this.setState({
-            currentSlideIndex: this.state.currentSlideIndex - 1
-        })
-
-        console.log(`after setState: ${this.state.currentSlideIndex}`)
-    }
 
     render() {
         return (
